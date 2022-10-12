@@ -1,0 +1,51 @@
+<input placeholder="Distancia em km" id="campoDistanciaKm"/>
+<input placeholder="Tempo em minutos" id="campotempoMin"/>
+<button onclick="calculaCorrida()">Calcula</button>
+
+<script>
+    
+
+    
+
+    function formatamoeda(algumValor) {
+        var valorformatado = algumValor.toFixed(2).replace('.',',');
+        return valorformatado
+    }
+
+    function calculaCorrida() {
+
+        var iscampoDistanciaEstaVAzio = campoDistanciaKm.value == '';
+        if(iscampoDistanciaEstaVAzio) {
+        alert('Preencher o campo distancia!!!')
+        return;
+        }
+
+        //Organizar entradas e regra de negocio
+        //variavel
+        var tarfifaDinamica = 1.4;
+        var distanciakm = campoDistanciaKm.value * tarfifaDinamica;
+        var tempomin = campotempoMin.value * 0.26;
+        var valorDaCorrida = distanciakm + tempomin; 
+        
+        //Saida
+        alert("O valor da corrida é: " + formatamoeda(valorDaCorrida));
+    }
+    
+
+
+
+/*
+#app de Corrida
+Preço Base da Corrida
+Custo Fixo
+Horários e regiões de maior movimento
+
+
+- distancia km
+- tempo min
+*/
+</script>
+
+
+
+
