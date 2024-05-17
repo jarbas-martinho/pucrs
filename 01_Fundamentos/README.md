@@ -8,11 +8,4 @@ Professores: Mário Souto e Edson Ifarraguirre Moreno
 - Análise de algorítmica quanto a aplicação e complexidade 
 - Análise da aplicabilidade e manejo de estruturas de dados lineares e hierárquicas
 
-Para visualizar o projeto basta abrir arquivo `index.html` no navegador de sua preferência.
 
-Imagem de exemplo:
-
-![Exemplo](https://github.com/ValchanOficial/PUCRS-FullstackDevelopment/blob/main/01_Fundamentos/imgs/img.png)
-
-Referência:
-https://github.com/omariosouto/pucpos-code
